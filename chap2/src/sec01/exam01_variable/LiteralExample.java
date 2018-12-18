@@ -28,10 +28,10 @@ public class LiteralExample {
 		System.out.println(var7);
 		
 		System.out.println('\t' + "들여쓰기");
-		System.out.println("대한" + '\n' + "민국"); //\r도 같은 결과 나옴
+		System.out.println("대한" + '\n' + "민국");	//\r도 같은 결과 나옴
 		System.out.println("이것은" + '\"' + "중요" + '\"' + "합니다");
 		
-		char var8 = '\u0041'; //유니코드입력 4x16^1+1x16^0 = 65
+		char var8 = '\u0041';	//유니코드입력 4x16^1+1x16^0 = 65
 		System.out.println(var8);
 		
 		System.out.println("대한" + "민국");
