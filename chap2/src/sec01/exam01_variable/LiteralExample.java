@@ -19,7 +19,7 @@ public class LiteralExample {
 		double var5 = 2E5;
 		System.out.println(var5);
 		//2x10^5
-		//정수지만 지수와 가수로 구성되어있기 떄문에  int쓰면 에러남!
+		//정수지만 지수와 가수로 구성되어있기 때문에  int쓰면 에러남!
 		
 		char var6 = 'A';
 		System.out.println(var6);
