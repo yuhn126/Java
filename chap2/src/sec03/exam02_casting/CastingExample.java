@@ -13,7 +13,7 @@ public class CastingExample {
 		
 		double doubleValue = 3.14;
 		intValue = (int)doubleValue;
-		System.out.println(intValue);			//doubleÀÇ Á¤¼ö ºÎºĞ¸¸ ÀúÀåµÈ´Ù
+		System.out.println(intValue);			//doubleì˜ ì •ìˆ˜ë¶€ë¶„ë§Œ ì €ì¥ë¨
 	}
 
 }
