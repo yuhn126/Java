@@ -13,7 +13,7 @@ public class CastingExample {
 		
 		double doubleValue = 3.14;
 		intValue = (int)doubleValue;
-		System.out.println(intValue);		//정수 부분만 저장됨
+		System.out.println(intValue);		// 정수 부분만 저장됨
 	}
 
 }
