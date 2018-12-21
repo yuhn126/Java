@@ -20,11 +20,11 @@ public class OperationsPromotionExample {
 		System.out.println("출력문자=" + (char)intValue2);
 		
 		int intValue3 = 10;
-		int intValue4 = intValue3/4;			//10/4=2.5
+		int intValue4 = intValue3/4;				//10/4=2.5
 		System.out.println(intValue4);
 		
 		int intValue5 = 10;
-		//int intValue6 = 10/4.0;			//에러
+		//int intValue6 = 10/4.0;				//에러
 		double doubleValue2 = intValue5 / 4.0;
 		System.out.println(doubleValue2);
 	}
