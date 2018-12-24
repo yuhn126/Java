@@ -1,6 +1,6 @@
-package exam02_increase_decrease;
+package sec03.exam02_increase_decrease;
 
-public class IncreaseDecreaseOperatorExample {
+public class IncreaseDecreaseOperationExample {
 
 	public static void main(String[] args) {
 		int x = 10;
