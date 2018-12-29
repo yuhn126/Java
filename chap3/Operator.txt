@@ -42,3 +42,8 @@
        (int + long -> long + long = long)
     3. 피연산자중 실수 타입 (float, double)이 있을 경우, 크기가 큰 실수 타입으로 변환 후 연산 수행, 연산 산출 타입 = 실수 타입
        (int + double -> double + double = double)
+
+3. 삼항 연산자 (=조건 연산식)
+   
+  (조건식) ? (값 또는 연산식) : (값 또는 연산식)
+	         true                  false
