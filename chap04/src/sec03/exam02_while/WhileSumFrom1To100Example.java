@@ -11,7 +11,7 @@ public class WhileSumFrom1To100Example {
 			i++;
 		}
 
-		System.out.println("1~" + (i-1) + " ÇÕ : " + sum);
+		System.out.println("1~" + (i-1) + " í•© : " + sum);
 	}
 
 }
