@@ -4,27 +4,27 @@ public class OperationsPromotionExample {
 	public static void main(String[] args) {
 		int intValue = 10;
 		double doubleValue = 5.5;
-		double result = intValue + doubleValue;			//int°¡ double·Î ÀÚµ¿º¯È¯ µÊ, int·Î ¿¬»êÇÏ·Á¸é double¾Õ¿¡ (int)Ãß°¡
+		double result = intValue + doubleValue;			//intê°€ doubleë¡œ ìë™ë³€í™˜ ë¨, intë¡œ ì—°ì‚°í•˜ë ¤ë©´ doubleì•ì— (int)ì¶”ê°€
 		
 		byte byteValue1 = 10;
 		byte byteValue2 = 20;
-		//byte byteValue3 = byteValue1 + byteValue2;		//¿¡·¯³²
+		//byte byteValue3 = byteValue1 + byteValue2;		//ì—ëŸ¬ë‚¨
 		int intValue1 = byteValue1 + byteValue2;
 		System.out.println(intValue1);
 		
 		char charValue1 = 'A';
 		char charValue2 = 1;
-		//char charValue3 = charValue1 +charValue2;		//¿¡·¯³²
+		//char charValue3 = charValue1 +charValue2;		//ì—ëŸ¬ë‚¨
 		int intValue2 = charValue1 + charValue2;
-		System.out.println("À¯´ÏÄÚµå=" + intValue2);
-		System.out.println("Ãâ·Â¹®ÀÚ=" + (char)intValue2);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½=" + intValue2);
+		System.out.println("ï¿½ï¿½Â¹ï¿½ï¿½ï¿½=" + (char)intValue2);
 		
 		int intValue3 = 10;
-		int intValue4 = intValue3/4;				//10/4=2.5
+		int intValue4 = intValue3/4;				// 10/4=2.5
 		System.out.println(intValue4);
 		
 		int intValue5 = 10;
-		//int intValue6 = 10/4.0;				//¿¡·¯
+		//int intValue6 = 10/4.0;				//ì—ëŸ¬ë‚¨
 		double doubleValue2 = intValue5 / 4.0;
 		System.out.println(doubleValue2);
 	}

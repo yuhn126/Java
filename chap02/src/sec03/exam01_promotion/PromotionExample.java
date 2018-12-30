@@ -9,7 +9,7 @@ public class PromotionExample {
 
 		char charValue = 'B';
 		intValue = charValue;				//int <- char
-		System.out.println("BÀÇ À¯´ÏÄÚµå = " + intValue);
+		System.out.println("Bì˜ ìœ ë‹ˆì½”ë“œ = " + intValue);
 		
 		intValue = 500;
 		long longValue = intValue;			//long(8) <- int(4)
@@ -20,7 +20,7 @@ public class PromotionExample {
 		System.out.println(doubleValue);
 		
 		longValue = 10000000000L;
-		float floatValue = longValue;		//float(4)Àº ºÎµ¿¼Ò¼öÁ¡¹æ½ÄÀ¸·Î ÀúÀåÇÏ±â ¶§¹®¿¡ longº¸´Ù ¸Þ¸ð¸®¸¦ Àû°Ô Â÷ÁöÇÔ ±×·¡¼­ ¿À·ùX
+		float floatValue = longValue;		//float(4)ì€ ë¶€ë™ì†Œìˆ˜ì ë°©ì‹ìœ¼ë¡œ ì €ìž¥í•˜ê¸° ë•Œë¬¸ì— longë³´ë‹¤ ë©”ëª¨ë¦¬ë¥¼ ì ê²Œ ì°¨ì§€í•¨ ê·¸ëž˜ì„œ ì˜¤ë¥˜X
 		System.out.println(floatValue);
 	}
 

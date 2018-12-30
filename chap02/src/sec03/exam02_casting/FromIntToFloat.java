@@ -6,17 +6,17 @@ public class FromIntToFloat {
 		int num1 = 123456780;
 		int num2 = 123456780;
 		
-		//int¿¡¼­ floatÀ¸·Î
-		float num3 = num2;		//float : ºÎÈ£(1) + Áö¼ö(8) + °¡¼ö(23)
-		num2 = (int)num3;		//123456780À» 23ºñÆ®·Î Ç¥Çö ÇÒ ¼ö ¾ø¾î¼­ ±Ù»çÄ¡·Î º¯È¯µÊ
+		//intì—ì„œ floatìœ¼ë¡œ
+		float num3 = num2;		//float : ë¶€í˜¸(1) + ì§€ìˆ˜(8) + ê°€ìˆ˜(23)
+		num2 = (int)num3;		//123456780ì„ 23ë¹„íŠ¸ë¡œ í‘œí˜„ í•  ìˆ˜ ì—†ì–´ì„œ ê·¼ì‚¬ì¹˜ë¡œ ë³€í™˜ë¨
 
 		int result1 = num1 - num2;
 		System.out.println(result1);
 		
-		//int¿¡¼­ doubleÀ¸·Î
+		//intì—ì„œ doubleìœ¼ë¡œ
 		num2 = 123456780;
 		
-		double num4 = num2;		//double : ºÎÈ£(1) + Áö¼ö(11) + °¡¼ö(52)
+		double num4 = num2;		//double : ë¶€í˜¸(1) + ì§€ìˆ˜(11) + ê°€ìˆ˜(52)
 		num2 = (int)num4;
 		
 		int result2 = num1 - num2;

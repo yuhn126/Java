@@ -4,11 +4,11 @@ public class FloDouExample {
 
 	public static void main(String[] args) {
 		double var1 = 3.14;
-		//float var2 = 3.14;	//½Ç¼ö ¸®ÅÍ·²À»  float¿¡ ÀúÀåÇÏ·Á¸é ¸®ÅÍ·² µÚ¿¡ 'f'¸¦ ºÙ¿©¾ß ÇÔ.
+		//float var2 = 3.14;	//ì‹¤ìˆ˜ ë¦¬í„°ëŸ´ì„  floatì— ì €ì¥í•˜ë ¤ë©´ ë¦¬í„°ëŸ´ ë’¤ì— 'f'ë¥¼ ë¶™ì—¬ì•¼ í•¨.
 		float var3 = 3.14f;
 		
-		//Á¤¹Ğµµ Å×½ºÆ®
-		double var4 = 0.1234567890123456789;	//floatº¸´Ù ´ë·« 2¹èÁ¤µµ Á¤¹Ğµµ°¡ ³ôÀ½
+		//ì •ë°€ë„ í…ŒìŠ¤íŠ¸
+		double var4 = 0.1234567890123456789;	///floatë³´ë‹¤ ëŒ€ëµ 2ë°°ì •ë„ ì •ë°€ë„ê°€ ë†’ìŒ
 		float var5 = 0.1234567890123456789F;
 		
 		System.out.println(var1);
@@ -16,7 +16,7 @@ public class FloDouExample {
 		System.out.println(var4);
 		System.out.println(var5);
 		
-		//e(Áö¼ö) »ç¿ëÇÏ±â
+		///e(ì§€ìˆ˜) ì‚¬ìš©í•˜ê¸°
 		int var6 = 3000000;
 		double var7 = 3e6;			//3x10^6
 		float var8 = 3e6f;			//3x10^6

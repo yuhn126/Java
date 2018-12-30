@@ -8,7 +8,7 @@ public class ByteExample {
 		byte var3 = 0;
 		byte var4 = 30;
 		byte var5 = 127;
-		//byte var6 = 128; 		byte´Â ¹üÀ§°¡ -128ºÎÅÍ 127±îÁöÀÌ¹Ç·Î ¿¡·¯³²
+		//byte var6 = 128; 		byteëŠ” ë²”ìœ„ê°€ -128ë¶€í„° 127ê¹Œì§€ì´ë¯€ë¡œ ì—ëŸ¬ë‚¨
 		
 		System.out.println(var1);
 		System.out.println(var2);

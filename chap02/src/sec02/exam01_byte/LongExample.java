@@ -4,7 +4,7 @@ public class LongExample {
 	public static void main(String[] args) {
 		long var1 = 10;
 		long var2 = 20L;
-		//long var3 = 100000000000;			//intÀÇ ÀúÀå ¹üÀ§¸¦ ³Ñ¾î¼­´Â Á¤¼ö ¸®ÅÍ·²¿¡ 'L'À» ºÙÀÌÁö¾Ê¾Æ ¿¡·¯
+		//long var3 = 100000000000;		//intì˜ ì €ì¥ ë²”ìœ„ë¥¼ ë„˜ì–´ì„œëŠ” ì •ìˆ˜ ë¦¬í„°ëŸ´ì— 'L'ì„ ë¶™ì´ì§€ì•Šì•„ ì—ëŸ¬
 		long var4 = 100000000000L;
 		
 		System.out.println(var1);

@@ -6,12 +6,12 @@ public class CheckValueBeforeCasting {
 	
 		int i = 128;
 		
-		byte b = (byte)i;				//byteÀÇ ¹üÀ§ = -128 ~ 127
-		System.out.println(b +"\n");			//¾û¶×ÇÑ °ª ÀúÀå
+		byte b = (byte)i;				//byteì˜ ë²”ìœ„ = -128 ~ 127
+		System.out.println(b +"\n");			//ì—‰ëš±í•œ ê°’ ì €ì¥
 		
-		if(i<-128 || i>127) {				//(i<Byte.MIN_VALUE || i>Byte.MAX_VALUE) ½áµµ µÊ (»ó¼ö)
-			System.out.println("byteÅ¸ÀÔÀ¸·Î º¯È¯ ÇÒ ¼ö ¾ø½À´Ï´Ù.");
-			System.out.println("°ªÀ» ´Ù½Ã È®ÀÎ ÇØ ÁÖ¼¼¿ä.");
+		if(i<-128 || i>127) {				//(i<Byte.MIN_VALUE || i>Byte.MAX_VALUE) ì¨ë„ ë¨ (ìƒìˆ˜)
+			System.out.println("byteíƒ€ì…ìœ¼ë¡œ ë³€í™˜ í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
+			System.out.println("ê°’ì„ ë‹¤ì‹œ í™•ì¸ í•´ ì£¼ì„¸ìš”.");
 		} else {
 			b = (byte)i;
 			System.out.println(b);

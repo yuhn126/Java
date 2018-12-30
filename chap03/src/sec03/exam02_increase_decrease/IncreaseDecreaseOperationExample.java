@@ -21,19 +21,19 @@ public class IncreaseDecreaseOperationExample {
 		z = x++;
 		System.out.println("z=" + z);
 		System.out.println("x=" + x);
-		//x¸¦ z¿¡ ³ÖÀº ÈÄ 1 Áõ°¡
+		//xë¥¼ zì— ë„£ì€ í›„ 1 ì¦ê°€
 		
 		System.out.println("------------------------");
 		z = ++x;
 		System.out.println("z=" + z);
 		System.out.println("x=" + x);
-		//1Áõ°¡ ÈÄ z¿¡ ´ëÀÔ
+		//1ì¦ê°€ í›„ zì— ëŒ€ì…
 		
 		System.out.println("------------------------");
 		z = ++x + y++;
 		System.out.println("z=" + z);
 		System.out.println("x=" + x);
-		System.out.println("y=" + y);	//x¿Í ´õÇØÁø ÈÄ 1 Áõ°¡
+		System.out.println("y=" + y);	//xì™€ ë”í•´ì§„ í›„ 1 ì¦ê°€
 
 	}
 

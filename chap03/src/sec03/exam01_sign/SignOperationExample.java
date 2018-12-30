@@ -5,13 +5,13 @@ public class SignOperationExample {
 	public static void main(String[] args) {
 			int x = -100;
 			int result1 = +x;
-			int result2 = -x;		//ºÎÈ£ ¹Ù²ñ
+			int result2 = -x;		//ë¶€í˜¸ ë°”ë€œ
 			
 			System.out.println(result1);
 			System.out.println(result2);
 
 			short s = 100;
-			//short result3 = -s;		//ºÎÈ£ ¿¬»êÀÚ°¡ ºÙÀ¸¸é °á°ú°ªÀÌ int·Î ³ª¿È
+			//short result3 = -s;		//ë¶€í˜¸ ì—°ì‚°ìê°€ ë¶™ìœ¼ë©´ ê²°ê³¼ê°’ì´ intë¡œ ë‚˜ì˜´
 			int result3 = -s;
 			
 			System.out.println(result3);

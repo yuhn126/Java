@@ -3,11 +3,11 @@ package sec02.exam01_byte;
 public class BooleanExample {
 
 	public static void main(String[] args) {
-		boolean stop = false;			//µÎ°¡Áö »óÅÂ°ªÀ» ÀúÀåÇÒ ÇÊ¿ä¼ºÀÌ ÀÖÀ» ¶§ »ç¿ëÇÔ.
+		boolean stop = false;			//ë‘ê°€ì§€ ìƒíƒœê°’ì„ ì €ì¥í•  í•„ìš”ì„±ì´ ìˆì„ ë•Œ ì‚¬ìš©í•¨.
 		if(stop) {
-			System.out.println("ÁßÁö");	//stopº¯¼ö¿¡ true°¡ µé¾îÀÖ¾ú´Ù¸é "ÁßÁö"Ãâ·Â
+			System.out.println("ì¤‘ì§€");	//stopë³€ìˆ˜ì— trueê°€ ë“¤ì–´ìˆì—ˆë‹¤ë©´ "ì¤‘ì§€"ì¶œë ¥
 		} else {
-			System.out.println("½ÃÀÛ");	//stopº¯¼ö¿¡ false°¡ ÀÖÀ¸¹Ç·Î "½ÃÀÛ" Ãâ·Â
+			System.out.println("ì‹œì‘");	//stopë³€ìˆ˜ì— falseê°€ ìˆìœ¼ë¯€ë¡œ "ì‹œì‘" ì¶œë ¥
 		}
 
 	}
