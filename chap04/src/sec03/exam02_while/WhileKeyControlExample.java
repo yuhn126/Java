@@ -22,7 +22,7 @@ public class WhileKeyControlExample {
 				System.out.println("현재 속도 = " + speed);
 			} else if (keyCode == 50) {		//2 누름
 				speed--;
-				System.out.println("���� �ӵ� = " + speed);
+				System.out.println("현재 속도 = " + speed);
 			} else if (keyCode == 51) {
 				run = false;		//run이 true일 동안 while문이 돌아감! false가 됐으므로 while문 종료
 			}
