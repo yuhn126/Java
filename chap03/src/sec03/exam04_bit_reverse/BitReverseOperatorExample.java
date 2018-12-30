@@ -6,9 +6,9 @@ public class BitReverseOperatorExample {
 		int v1 = 10;
 		int v2 = ~v1;
 		int v3 = ~v1 + 1;
-		System.out.println(toBinaryString(10)+"(½ÊÁø¼ö :" + v1 + ")");
-		System.out.println(toBinaryString(v2)+"(½ÊÁø¼ö :" + v2 + ")");
-		System.out.println(toBinaryString(v3)+"(½ÊÁø¼ö :" + v3 + ")");
+		System.out.println(toBinaryString(10)+"(ì‹­ì§„ìˆ˜ :" + v1 + ")");
+		System.out.println(toBinaryString(v2)+"(ì‹­ì§„ìˆ˜ :" + v2 + ")");
+		System.out.println(toBinaryString(v3)+"(ì‹­ì§„ìˆ˜ :" + v3 + ")");
 		System.out.println(v2);
 		System.out.println(v3);
 		

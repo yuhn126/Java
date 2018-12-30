@@ -17,11 +17,11 @@ public class ArithmeticOperationExample {
 		
 		int result4 = v1 / v2;
 		System.out.println("result4=" + result4);
-		//Á¤¼ö ºÎºÐ¸¸ Ãâ·Â
+		//ì •ìˆ˜ ë¶€ë¶„ë§Œ ì¶œë ¥
 		
 		int result5 = v1 % v2;
 		System.out.println("result5=" + result5);
-		//³ª¸ÓÁö ºÎºÐ¸¸ Ãâ·Â
+		//ë‚˜ë¨¸ì§€ë§Œ ì¶œë ¥
 		
 		double result6 = (double)v1 / v2;
 		System.out.println("result6=" + result6);

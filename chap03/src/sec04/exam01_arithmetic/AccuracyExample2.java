@@ -9,11 +9,11 @@ public class AccuracyExample2 {
 		int temp = totalPieces - number;
 		
 		double result = temp / 10.0;
-		//Á¤¼ö·Î ¿¬»êÇÑ ÈÄ ½Ç¼ö·Î º¯È¯!
+		//ì •ìˆ˜ë¡œ ì—°ì‚°í•œ í›„ ì‹¤ìˆ˜ë¡œ ë³€í™˜!
 		
-		System.out.println("»ç°ú ÇÑ °³ ¿¡¼­");
-		System.out.println("7Á¶°¢À» »©¸é");
-		System.out.println(result + "Á¶°¢ÀÌ ³²´Â´Ù.");
+		System.out.println("ì‚¬ê³¼ í•œ ê°œ ì—ì„œ");
+		System.out.println("7ì¡°ê°ì„ ë¹¼ë©´");
+		System.out.println(result + "ì¡°ê°ì´ ë‚¨ëŠ”ë‹¤.");
 		
 	}
 

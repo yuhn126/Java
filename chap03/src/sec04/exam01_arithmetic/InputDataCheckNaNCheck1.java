@@ -3,18 +3,18 @@ package sec04.exam01_arithmetic;
 public class InputDataCheckNaNCheck1 {
 
 	public static void main(String[] args) {
-		String userInput = "NaN";		//»ç¿ëÀÚ·ÎºÎÅÍ ÀÔ·Â ¹ŞÀº °ª
-		double val = Double.valueOf(userInput);		//ÀÔ·Â°ªÀ» doubleÅ¸ÀÔÀ¸·Î º¯È¯
+		String userInput = "NaN";			//ì‚¬ìš©ìë¡œë¶€í„° ì…ë ¥ ë°›ì€ ê°’
+		double val = Double.valueOf(userInput);		//ì…ë ¥ê°’ì„ doubleíƒ€ì…ìœ¼ë¡œ ë³€í™˜
 		
 		double currentBalance = 10000.0;
 		
-		//NaN °Ë»ç
+		//NaN ï¿½Ë»ï¿½
 		if(Double.isNaN(val)) {
-			System.out.println("NaNÀÌ ÀÔ·ÂµÇ¾î Ã³¸®ÇÒ ¼ö ¾øÀ½.");
+			System.out.println("NaNì´ ì…ë ¥ë˜ì–´ ì²˜ë¦¬í•  ìˆ˜ ì—†ìŒ.");
 			val = 0.0;
-		}		//NaNÀÏ °æ¿ì ½ÇÇàµÇ´Â ÄÚµå
+		}					//NaNì¼ ê²½ìš° ì‹¤í–‰ë˜ëŠ” ì½”ë“œ
 		
-		currentBalance += val;		//currentBÀÇ ¿ø·¡°ªÀÌ À¯ÁöµÊ!
+		currentBalance += val;		//currentBì˜ ì›ë˜ê°’ì´ ìœ ì§€ë¨!
 		
 		System.out.println(currentBalance);
 

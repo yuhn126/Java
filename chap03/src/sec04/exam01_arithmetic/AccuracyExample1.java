@@ -9,11 +9,11 @@ public class AccuracyExample1 {
 		
 		double result = apple - number * pieceUnit;
 		
-		System.out.println("»ç°ú ÇÑ °³ ¿¡¼­");
-		System.out.println("7Á¶°¢À» »©¸é");
-		System.out.println(result + "Á¶°¢ÀÌ ³²´Â´Ù.");
-		/*Á¤È®ÇÑ °è»êÀº Á¤¼ö¸¦ »ç¿ëÇÏ´Â °ÍÀÌ ÁÁ´Ù.
-		 ºÎµ¿¼Ò¼öÁ¡(½Ç¼ö)Å¸ÀÔÀº 0.1À» Á¤È®È÷ Ç¥ÇöÇÏÁö ¸øÇÔ*/
+		System.out.println("ì‚¬ê³¼ í•œ ê°œ ì—ì„œ");
+		System.out.println("7ì¡°ê°ì„ ë¹¼ë©´");
+		System.out.println(result + "ì¡°ê°ì´ ë‚¨ëŠ”ë‹¤.");
+		/*ì •í™•í•œ ê³„ì‚°ì€ ì •ìˆ˜ë¥¼ ì‚¬ìš©í•˜ëŠ” ê²ƒì´ ì¢‹ë‹¤.
+		 ë¶€ë™ì†Œìˆ˜ì (ì‹¤ìˆ˜)íƒ€ì…ì€ 0.1ì„ ì •í™•íˆ í‘œí˜„í•˜ì§€ ëª»í•¨*/
 	}
 
 }
