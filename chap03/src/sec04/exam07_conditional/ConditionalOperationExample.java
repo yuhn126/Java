@@ -7,10 +7,10 @@ public class ConditionalOperationExample {
 		
 		char grade = (score>90) ? 'A' : ((score>80) ? 'B' : 'C');
 		
-		System.out.println(score + "Á¡Àº " + grade + "µî±ŞÀÔ´Ï´Ù.");
+		System.out.println(score + "ì ì€ " + grade + "ë“±ê¸‰ì…ë‹ˆë‹¤.");
 		
 		/*
-		°°ÀºÄÚµå
+		ê°™ì€ì½”ë“œ
 		
 		char grade;
 		 
@@ -22,7 +22,7 @@ public class ConditionalOperationExample {
 			grade = 'C';
 		}
 		
-		System.out.println(score + "Á¡Àº " + grade + "µî±ŞÀÔ´Ï´Ù.");
+		System.out.println(score + "ì ì€" + grade + "ë“±ê¸‰ì…ë‹ˆë‹¤.");
 		
 		
 		*/

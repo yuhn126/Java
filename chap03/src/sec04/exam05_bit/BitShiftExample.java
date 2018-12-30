@@ -3,9 +3,9 @@ package sec04.exam05_bit;
 public class BitShiftExample {
 
 	public static void main(String[] args) {
-		System.out.println("1 << 3 = " + (1 << 3));			//¿ŞÂÊÀ¸·Î 3bit ÀÌµ¿
-		System.out.println("-8 >> 3 = " + (-8 >> 3));			//¿À¸¥ÂÊÀ¸·Î 3bit ÀÌµ¿
-		System.out.println("-8 >>> 3 = " + (-8 >>> 3));			//¿À¸¥ÂÊÀ¸·Î 3bit ÀÌµ¿ÇÏµÇ 0À¸·Î Ã¤¿ò
+		System.out.println("1 << 3 = " + (1 << 3));			//ì™¼ìª½ìœ¼ë¡œ 3bit ì´ë™
+		System.out.println("-8 >> 3 = " + (-8 >> 3));			//ì˜¤ë¥¸ìª½ìœ¼ë¡œ 3bit ì´ë™
+		System.out.println("-8 >>> 3 = " + (-8 >>> 3));			//ì˜¤ë¥¸ìª½ìœ¼ë¡œ 3bit ì´ë™í•˜ë˜ 0ìœ¼ë¡œ ì±„ì›€
 		
 		System.out.println();
 		System.out.println(toBinaryString(-8));	

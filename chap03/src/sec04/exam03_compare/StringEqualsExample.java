@@ -3,14 +3,14 @@ package sec04.exam03_compare;
 public class StringEqualsExample {
 
 	public static void main(String[] args) {
-		String strVar1 = "½Å¿ë±Ç";
-		String strVar2 = "½Å¿ë±Ç";
-		String strVar3 = new String("½Å¿ë±Ç");		//»õ·Î¿î °´Ã¼ »ı¼º
+		String strVar1 = "ï¿½Å¿ï¿½ï¿½";
+		String strVar2 = "ï¿½Å¿ï¿½ï¿½";
+		String strVar3 = new String("ï¿½Å¿ï¿½ï¿½");			//ìƒˆë¡œìš´ ê°ì²´ ìƒì„±
 		
-		System.out.println(strVar1 == strVar2);			//¹øÁö°¡ °°ÀºÁö ¹°¾îº½
+		System.out.println(strVar1 == strVar2);			//ë²ˆì§€ê°€ ê°™ì€ì§€ ë¬¼ì–´ë´„
 		System.out.println(strVar1 == strVar3);
 		System.out.println();
-		System.out.println(strVar1.equals(strVar2));		//1ÀÇ ¹®ÀÚ¿­°ú 2ÀÇ ¹®ÀÚ¿­ÀÌ °°Àº°¡?
+		System.out.println(strVar1.equals(strVar2));		//1ì˜ ë¬¸ìì—´ê³¼ 2ì˜ ë¬¸ìì—´ì´ ê°™ì€ê°€?
 		System.out.println(strVar1.equals(strVar3));
 
 	}

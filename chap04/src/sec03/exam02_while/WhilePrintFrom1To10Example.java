@@ -7,7 +7,7 @@ public class WhilePrintFrom1To10Example {
 		
 		while(i<=10) {
 			System.out.println(i);
-			i++;		//Áõ°¡¹® ¾øÀ¸¸é ¹«ÇÑ¹Ýº¹ÇÔ, ÁÖÀÇ!
+			i++;			//ì¦ê°€ë¬¸ ì—†ìœ¼ë©´ ë¬´í•œë°˜ë³µí•¨, ì£¼ì˜!
 		}
 
 	}

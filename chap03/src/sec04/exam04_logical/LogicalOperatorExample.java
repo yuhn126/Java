@@ -6,27 +6,27 @@ public class LogicalOperatorExample {
 		int charCode = '4';
 		
 		if((charCode >= 65) && (charCode <= 90)) {
-			System.out.println("´ë¹®ÀÚ ÀÌ±º¿ä");
+			System.out.println("ëŒ€ë¬¸ì ì´êµ°ìš”");
 		}
 		
 		if((charCode >= 97) && (charCode <= 122)) {
-			System.out.println("¼Ò¹®ÀÚ ÀÌ±º¿ä");
+			System.out.println("ì†Œë¬¸ì ì´êµ°ìš”");
 		}
 		
 		if(!(charCode < 48) && !(charCode > 57)) {
-			System.out.println("0~9 ¼ıÀÚ ÀÌ±º¿ä");
+			System.out.println("0~9 ìˆ«ì ì´êµ°ìš”");
 		}
 		
 		
 		int value = 6;
 		
 		if ((value%2==0) | (value%3==0)) {
-			System.out.println("2 ¶Ç´Â 3ÀÇ ¹è¼ö ÀÌ±º¿ä");
-		}		//¾ÕÀÌ true¿©µµ µÚµµ °Ë»ç
+			System.out.println("2 ë˜ëŠ” 3ì˜ ë°°ìˆ˜êµ°ìš”");
+		}//ï¿½ï¿½ï¿½ï¿½ trueï¿½ï¿½ï¿½ï¿½ ï¿½Úµï¿½ ï¿½Ë»ï¿½
 		
 		if ((value%2==0) || (value%3==0)) {
-			System.out.println("2 ¶Ç´Â 3ÀÇ ¹è¼ö ÀÌ±º¿ä");
-		}		//¾ÕÀÌ true¸é µÚ °Ë»çx
+			System.out.println("\"2 ë˜ëŠ” 3ì˜ ë°°ìˆ˜êµ°ìš”");
+		}//ï¿½ï¿½ï¿½ï¿½ trueï¿½ï¿½ ï¿½ï¿½ ï¿½Ë»ï¿½x
 	}
 
 }

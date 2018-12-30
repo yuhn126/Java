@@ -15,16 +15,16 @@ public class WhileKeyControlExample {
 				System.out.print("선택: ");
 			}
 			
-			keyCode = System.in.read();		//입력받은 키를 변수에 저장
+			keyCode = System.in.read();			//입력받은 키를 변수에 저장
 			
-			if(keyCode == 49) {		//1 누름
+			if(keyCode == 49) {				//1 누름
 				speed++;
 				System.out.println("현재 속도 = " + speed);
 			} else if (keyCode == 50) {		//2 누름
 				speed--;
 				System.out.println("현재 속도 = " + speed);
 			} else if (keyCode == 51) {
-				run = false;		//run이 true일 동안 while문이 돌아감! false가 됐으므로 while문 종료
+				run = false;			//run이 true일 동안 while문이 돌아감! false가 됐으므로 while문 종료
 			}
 		}
 		System.out.println("프로그램 종료");

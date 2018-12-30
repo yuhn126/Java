@@ -3,12 +3,12 @@ package sec04.exam01_arithmetic;
 public class InputDataCheckNaNCheck2 {
 
 	public static void main(String[] args) {
-		String userInput = "NaN";		//»ç¿ëÀÚ·ÎºÎÅÍ ÀÔ·Â ¹ŞÀº °ª
-		double val = Double.valueOf(userInput);		//ÀÔ·Â°ªÀ» doubleÅ¸ÀÔÀ¸·Î º¯È¯
+		String userInput = "NaN";			//ì‚¬ìš©ìë¡œë¶€í„° ì…ë ¥ ë°›ì€ ê°’
+		double val = Double.valueOf(userInput);		//ì…ë ¥ê°’ì„ doubleíƒ€ì…ìœ¼ë¡œ ë³€í™˜
 		
 		double currentBalance = 10000.0;
 		
-		currentBalance += val;		//currentB¿¡ NaNÀÌ ÀúÀåµÊ.
+		currentBalance += val;			//currentBì— NaNì´ ì €ì¥ë¨.
 		
 		System.out.println(currentBalance);
 
