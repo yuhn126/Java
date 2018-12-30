@@ -3,30 +3,30 @@ package sec03.exam02_while;
 public class WhileKeyControlExample {
 
 	public static void main(String[] args) throws Exception {
-		boolean run = true;			//runÀÌ false°¡ µÇ¸é ¹İº¹ µÇÁöx
+		boolean run = true;			//runì´ falseê°€ ë˜ë©´ ë°˜ë³µ ë˜ì§€x
 		int speed = 0;
 		int keyCode = 0;
 		
 		while(run){
-			if(keyCode!=13 && keyCode!=10) {		//¿£ÅÍÅ°¸¦ ´­·¶À» ¶§ ÀÔ·ÂµÇ´Â 10°ú 13
+			if(keyCode!=13 && keyCode!=10) {		//ì—”í„°í‚¤ë¥¼ ëˆŒë €ì„ ë•Œ ì…ë ¥ë˜ëŠ” 10ê³¼ 13
 				System.out.println("---------------------------------");
-				System.out.println("1.Áõ¼Ó |2.°¨¼Ó|3.ÁßÁö");
+				System.out.println("1.ì¦ì† |2.ê°ì†|3.ì¤‘ì§€");
 				System.out.println("---------------------------------");
-				System.out.print("¼±ÅÃ: ");
+				System.out.print("ì„ íƒ: ");
 			}
 			
-			keyCode = System.in.read();		//ÀÔ·Â¹ŞÀº Å°¸¦ º¯¼ö¿¡ ÀúÀå
+			keyCode = System.in.read();		//ì…ë ¥ë°›ì€ í‚¤ë¥¼ ë³€ìˆ˜ì— ì €ì¥
 			
-			if(keyCode == 49) {		//1´©¸§
+			if(keyCode == 49) {		//1 ëˆ„ë¦„
 				speed++;
-				System.out.println("ÇöÀç ¼Óµµ = " + speed);
-			} else if (keyCode == 50) {		//2´©¸§
+				System.out.println("í˜„ì¬ ì†ë„ = " + speed);
+			} else if (keyCode == 50) {		//2 ëˆ„ë¦„
 				speed--;
-				System.out.println("ÇöÀç ¼Óµµ = " + speed);
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½Óµï¿½ = " + speed);
 			} else if (keyCode == 51) {
-				run = false;		//while¹® Á¾·á
+				run = false;		//runì´ trueì¼ ë™ì•ˆ whileë¬¸ì´ ëŒì•„ê°! falseê°€ ëìœ¼ë¯€ë¡œ whileë¬¸ ì¢…ë£Œ
 			}
 		}
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 	}
 }
