@@ -5,7 +5,7 @@ public class ForFloatCounterExample {
 	public static void main(String[] args) {
 
 		for(float x = 0.1f; x<=1.0f; x+=0.1f) {
-			System.out.println(x);		//ºÎµ¿¼Ò¼öÁ¡ Å¸ÀÔÀº Á¤È®µµ°¡ ¶³¾îÁü, À¢¸¸ÇÏ¸é Á¤¼ö »ç¿ë!
+			System.out.println(x);		//ë¶€ë™ì†Œìˆ˜ì  íƒ€ìž…ì€ ì •í™•ë„ê°€ ë–¨ì–´ì§, ì›¬ë§Œí•˜ë©´ ì •ìˆ˜ ì‚¬ìš©!
 		}
 
 	}

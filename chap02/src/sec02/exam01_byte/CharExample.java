@@ -3,15 +3,15 @@ package sec02.exam01_byte;
 public class CharExample {
 
 	public static void main(String[] args) {
-		char c1 = 'A';			//¹®ÀÚ Á÷Á¢ ÀúÀå
-		char c2 = 65;			//10Áø¼ö·Î ÀúÀå
-		char c3 = '\u0041';		//16Áø¼ö·Î ÀúÀå
+		char c1 = 'A';			//ë¬¸ì ì§ì ‘ ì €ì¥
+		char c2 = 65;			//10ì§„ìˆ˜ë¡œ ì €ì¥
+		char c3 = '\u0041';		//10ì§„ìˆ˜ë¡œ ì €ì¥
 		
-		char c4 = '°¡';			//¹®ÀÚ
-		char c5 = 44032;		//10Áø¼ö
-		char c6 = '\uac00';		//16Áø¼ö
+		char c4 = 'ê°€';			//ë¬¸ì
+		char c5 = 44032;		//10ì§„ìˆ˜
+		char c6 = '\uac00';		//16ì§„ìˆ˜
 
-		int uniCode = c1;		//À¯´ÏÄÚµå¾ò±â('A'ÀÇ À¯´ÏÄÚµå ¹øÈ£)
+		int uniCode = c1;		//ìœ ë‹ˆì½”ë“œì–»ê¸°('A'ì˜ ìœ ë‹ˆì½”ë“œ ë²ˆí˜¸)
 		
 		System.out.println(c1);
 		System.out.println(c2);

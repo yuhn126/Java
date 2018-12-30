@@ -19,25 +19,25 @@ public class LiteralExample {
 		double var5 = 2E5;
 		System.out.println(var5);
 		//2x10^5
-		//Á¤¼öÁö¸¸ Áö¼ö¿Í °¡¼ö·Î ±¸¼ºµÇ¾îÀÖ±â ¶§¹®¿¡  int¾²¸é ¿¡·¯³²!
+		//ì •ìˆ˜ì§€ë§Œ ì§€ìˆ˜ì™€ ê°€ìˆ˜ë¡œ êµ¬ì„±ë˜ì–´ìˆê¸° ë•Œë¬¸ì—  intì“°ë©´ ì—ëŸ¬ë‚¨!
 		
 		char var6 = 'A';
 		System.out.println(var6);
 		
-		char var7 = 'ÇÑ';
+		char var7 = 'í•œ';
 		System.out.println(var7);
 		
-		System.out.println('\t' + "µé¿©¾²±â");
-		System.out.println("´ëÇÑ" + '\n' + "¹Î±¹");	//\rµµ °°Àº °á°ú ³ª¿È
-		System.out.println("ÀÌ°ÍÀº" + '\"' + "Áß¿ä" + '\"' + "ÇÕ´Ï´Ù");
+		System.out.println('\t' + "ë“¤ì—¬ì“°ê¸°");
+		System.out.println("ëŒ€í•œ" + '\n' + "ë¯¼êµ­");	//\rï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		System.out.println("ì´ê²ƒì€" + '\"' + "ì¤‘ìš”" + '\"' + "í•©ë‹ˆë‹¤");
 		
-		char var8 = '\u0041';	//À¯´ÏÄÚµåÀÔ·Â 4x16^1+1x16^0 = 65
+		char var8 = '\u0041';	//ìœ ë‹ˆì½”ë“œì…ë ¥ 4x16^1+1x16^0 = 65
 		System.out.println(var8);
 		
-		System.out.println("´ëÇÑ" + "¹Î±¹");
+		System.out.println("ëŒ€í•œ" + "ë¯¼êµ­");
 		System.out.println("Java" + 8);
 		
-		String var9 = "ÀÚ¹Ù";
+		String var9 = "ìë°”";
 		System.out.println(var9);
 		
 		
