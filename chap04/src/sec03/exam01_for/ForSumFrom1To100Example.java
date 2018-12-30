@@ -9,7 +9,7 @@ public class ForSumFrom1To100Example {
 			sum += i;
 		}
 
-		System.out.println("1~100±îÁöÀÇ ÇÕ = " + sum);
+		System.out.println("1~100ê¹Œì§€ì˜ í•© = " + sum);
 	}
 
 }
