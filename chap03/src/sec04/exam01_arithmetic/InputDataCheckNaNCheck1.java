@@ -14,7 +14,7 @@ public class InputDataCheckNaNCheck1 {
 			val = 0.0;
 		}					//NaN일 경우 실행되는 코드
 		
-		currentBalance += val;		//currentB의 원래값이 유지됨!
+		currentBalance += val;			//currentB의 원래값이 유지됨!
 		
 		System.out.println(currentBalance);
 
