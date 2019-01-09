@@ -22,11 +22,16 @@ public class EnumMethodExample {
 		
 		//valueOf() 메소드
 		Week weekDay = Week.valueOf("SUNDAY");	//동일한 문자열을 가지고 있는 열거 객체 리턴
-		if(weekDay = Week.SATURDAY || weekDay == Week.SUNDAY) {
+		if(weekDay == Week.SATURDAY || weekDay == Week.SUNDAY) {
 			System.out.println("주말이군요");
 		} else {
 			System.out.println("평일이군요");
 		}
 	
+		//values() 메소드 (for문 사용에 편이)
+		Week[] days = Week.values();//열거 객체의 배열 리턴
+		for (Week day : days) {
+			System.out.println(day);
+		}
 	}
 }
