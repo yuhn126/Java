@@ -5,12 +5,13 @@ import java.util.Scanner;
 public class Exercise09 {
 
 	public static void main(String[] args) {
+		//학생 수, 각 학생들의 점수를 입력 받아 최고 점수 및 평균 점수를 구하는 프로그램
 		boolean run = true;
 		int studentNum = 0;
 		int[] scores = null;
 		int max = 0;
-		double avg = 0;
 		int sum = 0;
+		double avg = 0;
 		Scanner scanner = new Scanner(System.in);
 		
 		while(run) {
@@ -29,7 +30,6 @@ public class Exercise09 {
 				for(int i=0; i<scores.length; i++) {
 					System.out.print("scores[" + i + "]> ");
 					scores[i] = scanner.nextInt();
-					sum += scores[i];
 				}
 			} else if(selectNo == 3) {
 				for(int i=0; i<scores.length; i++) {
@@ -39,6 +39,8 @@ public class Exercise09 {
 				for(int i=0; i<scores.length; i++) {
 					if(max < scores[i]) {
 						max = scores[i];
+						//max = (max<scores[i]) ? scores[i] : max
+						sum += scores[i];
 					}
 				}
 				System.out.println("최고 점수 : " + max);
