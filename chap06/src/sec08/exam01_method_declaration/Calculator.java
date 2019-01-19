@@ -14,4 +14,8 @@ public class Calculator {
 		double result = (double)x / (double)y;
 		return result;
 	}
+	
+	void powerOff() {
+		System.out.println("전원을 끕니다.");
+	}
 }
