@@ -14,5 +14,5 @@ public class Television {
 			sum += i;
 		}
 		from1To10Sum = sum;
-	}
+	}	//정적 필드의 복잡한 초기화식은 정적 블록에서 해야한다.
 }
