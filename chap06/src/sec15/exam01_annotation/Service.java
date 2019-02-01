@@ -11,7 +11,7 @@ public class Service {
 		System.out.println("실행 내용 2");
 	}
 	
-	@PrintAnnotation(value="#", number=10)
+	@PrintAnnotation(value="#", number=20)
 	public void method3() {
 		System.out.println("실행 내용 3");
 	}
